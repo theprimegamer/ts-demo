@@ -12,16 +12,47 @@
    - Show how it compiles down to JS to see how types are tanspiled away
    - Webpack or any other bundler
 1. Basics
-   - strings, numbers, consts
-   - async, await
-   - functions (basics, curried functions, thunks maybe)
+   - strings, numbers, booleans
+   - objects
+     - optionals
+     - readonly
+   - array
+   - void, unknown, any, never (exhaustive switch)
+   - functions
+   - generics
+     - Extends... / contidional types
+   - literal types
+   - unions (accepting multiple types. Narrowing here)
+   - intersection (extending a type)
+1. Baddities
+   - Function
+   - generics
+   - Push types down
+   - Use as few
+   - Don't get carried away
+1. Utility Functions
+   - Partial
+   - Pick
+   - Omit (Extending types with overlap?)
+   -
 1. Advanced
 
    - Dealing with arrays
-     - number[]
-     - Promise<unknown>[] (You can index into an array with Type[number])
-     - [string, number] (useState) (You can index into an array with a specific index Type[0] or Type[1])
-   -
+   - number[]
+   - Tuples (readonly)
+   - Promise<unknown>[] (You can index into an array with Type[number])
+   - [string, number] (useState) (You can index into an array with a specific index Type[0] or Type[1])
+   - Functions
+     - Curried functions
+     - Optional params in callbacks
+     - Function overloads
+   - Parameter constraints
+   - Rest params and args
+   - Mapping
+     - Mapping Modifiers
+     - Template Literal types
+   - Index signatures
+   - Excess property checks?
 
 1. Extras
    1. Do we have to use TS?
